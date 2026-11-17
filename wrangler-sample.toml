@@ -1,9 +1,9 @@
 name = "v2-xbot"
 compatibility_date = "2023-01-01"
 node_compat = true
-vars = { env = "staging", enableLog = "false", botToken = "YOUR_BOT_TOKEN", adminId = "YOUR_ADMIN_ID", tlgSupport = "@YOUR_SUUPORT_ID" }
+vars = { env = "staging", enableLog = "false", botToken = "9111085260:AAGgXHyEau2lcqOVyLkz6mgJRv0da5YUUHI", adminId = "8706763700", tlgSupport = "@YOUR_SUUPORT_ID" }
 kv_namespaces = [
-    { binding = "db", id = "YOUR_KV_ID" },
+    { binding = "db", id = "" },
 ]
 [triggers]
 crons = ["0 */1 * * *"] # Auto-Backup cron job
